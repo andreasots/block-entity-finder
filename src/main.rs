@@ -70,6 +70,7 @@ fn main() {
                             .help("Maximum chunks to list")
                             .takes_value(true)
                             .default_value("10"))
+                        .after_help("WARNING: Negative dimension IDs like The Nether get interpreted as arguments. Use `--` to escape them. Example: block-entity-finder ~/.minecraft/saves/New\\ World -- -1")
                         .get_matches();
 
     let mut region_path = PathBuf::from(matches.value_of_os("WORLD").unwrap());

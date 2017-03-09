@@ -1,6 +1,6 @@
 [package]
 name = "block-entity-finder"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Andreas Ots <qrpth@qrpth.eu>"]
 description = "Tool to find chunks with the most block entities"
 license = "Apache-2.0"
